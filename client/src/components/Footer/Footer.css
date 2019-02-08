@@ -1,0 +1,48 @@
+.footer {
+    height:10%;
+    margin-left:5px;
+    margin-right: 4px;
+    margin-top:28px;
+    font-family: 'Playfair Display', serif;
+
+}
+.row {
+    background-color: #0e0203;
+    margin-top: 5px;
+   
+}
+
+.foot {
+    background-color: #0e0203;
+    color: white;
+    font-family: 'Playfair Display', serif;
+
+    
+}
+.list-unstyled {
+    font-size: 20px;
+    letter-spacing: 3.5px;
+    
+}
+#slide0 {
+    font-size:50px;
+}
+#slide1 {
+    font-size: 25px;
+}
+#slide2 {
+    font-size:50px;
+
+}
+#slide3 {
+    font-size: 25px;
+
+}
+#slide4 {
+    font-size:50px;
+
+}
+#slide5 {
+    font-size: 25px;
+
+}

@@ -14,7 +14,7 @@ function Nav() {
       <div className="collapse navbar-collapse">
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <Link to="/" className="nav-link">Home<i class="fa fa-home"></i></Link>
+              <Link to="/" className="nav-link">Home <i class="fa fa-home"></i></Link>
             </li>
             
             <li className="nav-item">

@@ -64,6 +64,12 @@ class Login extends Component {
                                 value="Log In"
                                 className="btn btn-primary"
                             />
+                       
+                             <input 
+                                type="submit"
+                                value="Sign Up"
+                                className="btn btn-primary"
+                            />
                         </div>
                     </form>
                 </div>

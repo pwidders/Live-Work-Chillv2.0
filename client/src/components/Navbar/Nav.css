@@ -9,8 +9,10 @@
 .navBar {
     background-color: #0e0203;
     margin: 7px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
 }
 .navbar-collapse {
-    padding-left: 60%;
+    padding-left: 55%;
 
 }

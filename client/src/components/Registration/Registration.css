@@ -1,19 +1,41 @@
 .register {
-   text-align: center;
-   font-size: 25px;
-}
-.form-group {
-    font-size:20px;
     text-align: center;
-}
-.form-control {
-    width:50%;
-   margin-left:25%;
-
-}
-.btn-primary {
-    background-color: rgb(37, 12, 12);
-    font-size: 20px;
-
-
-}
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: #0e0203;
+    height: 50px;
+ }
+ 
+ .form-group {
+     font-size:20px;
+     text-align: center;
+     color:#5c3236;
+ }
+ 
+ .form-control {
+     width:50%;
+    margin-left:25%;
+ 
+ }
+ 
+ .btn-primary {
+     background-color: rgb(37, 12, 12);
+     font-size: 20px;
+ 
+ 
+ }
+ 
+ .registration {
+     background-color: #0e0203;
+     margin-left: 4px;
+     margin-right: 4px;
+     
+    
+     
+ }
+ 
+ .container {
+     background-color: white;
+ 
+ }

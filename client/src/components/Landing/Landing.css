@@ -6,6 +6,7 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom:3px;
+    font-family: 'Playfair Display', serif;
    
 }
 .display-4 {
@@ -13,6 +14,7 @@
     color: white;
     text-align: center;
     font-size: 108px;
+    
 }
 .lead {
     color: white;
