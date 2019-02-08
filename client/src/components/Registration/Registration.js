@@ -122,9 +122,10 @@ class CreateUser extends Component {
 
     render () {
         return (
+          <div className="registration">
             <div className= "container">
                 <div style= {{marginTop: 20}}>
-                    <h3 className="register">Please Register to Get Your Local Data Results</h3>
+                    <h3 className="register">Please Register Below</h3>
                     <form onSubmit={this.onSubmit}>
                         <div className="form-group">
                             <label>Name: </label>
@@ -206,7 +207,7 @@ class CreateUser extends Component {
                             <input 
                                 type="submit"
 
-                                value="See Data"
+                                value="Register"
 
                                 className="btn btn-primary"
                             />
@@ -214,6 +215,7 @@ class CreateUser extends Component {
                     </form>
                 </div>
             </div>
+        </div>
         )
     }
 }
