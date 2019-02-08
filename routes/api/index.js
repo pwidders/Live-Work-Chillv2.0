@@ -1,15 +1,18 @@
 const router = require("express").Router();
 const userRoutes = require("./users");
-const marketDataRoutes = require("./mdata");
+const rentDataRoutes = require("./rentData");
 const authRoutes = require("./auth");
 
-// User routes
-router.use("/user", userRoutes);
+// // Routes - Import our auth.js file
+// var authRoute = require('../../')(app,passport); // Added passport as an argument to pass its functionality to auth.js
 
-// Zillow data routes
-router.use("/mdata", marketDataRoutes);
+// User data routes
+router.use("/api/user", userRoutes);
+
+// // Zillow data routes
+// router.use("/api/rentdata", rentDataRoutes);
 
 // Auth data routes
-router.use("/auth", authRoutes);
+router.use("/api/auth", authRoutes);
 
 module.exports = router;

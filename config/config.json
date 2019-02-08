@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "password",
-    "database": "live_work_chill",
+    "database": "live_work_chill_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
