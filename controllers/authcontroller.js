@@ -1,12 +1,12 @@
 var exports = module.exports = {}
  
 // Controller route for signup
-exports.signup = function(req, res) {
+exports.register = function(req, res) {
     res.render('signup');
 }
  
 // Controller route for signin
-exports.signin = function(req, res) {
+exports.login = function(req, res) {
     res.render('signin');
 }
  

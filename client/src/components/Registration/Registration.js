@@ -88,29 +88,21 @@ class CreateUser extends Component {
         console.log(`City: ${this.state.city}`);
         console.log(`Annual Household Salary: ${this.state.income}`);
 
-        // Submit data to server
-        // create object that contains the values from the form
-        // const newTodo = {
-        //     todo_description: this.state.todo_description,
-        //     todo_responsible: this.state.todo_responsible,
-        //     todo_priority: this.state.todo_priority,
-        //     todo_completed: this.state.todo_completed
-        // }
+         // Submit data to server
+         // create object that contains the values from the form
+        const user = {
+            email: this.state.email,
+            password: this.state.password,
+            name: this.state.name,
+            job_title: this.state.job_title,
+            zip_code: this.state.zip_code,
+            city: this.state.city,
+            income: this.state.income
+        }
 
-    }
-
-    //     // Submit data to server
-    //     // create object that contains the values from the form
-    //     const newTodo = {
-    //         todo_description: this.state.todo_description,
-    //         todo_responsible: this.state.todo_responsible,
-    //         todo_priority: this.state.todo_priority,
-    //         todo_completed: this.state.todo_completed
-    //     }
-
-    //     // With value attained in newTodo, make Axios call
-    //     axios.post('http://localhost:4000/todos/add', newTodo)
-    //         .then(res => console.log(res.data));
+    //     // With value attained in , make Axios call
+        axios.post('api/user', user)
+            .then(res => console.log(res.data));
 
     //     this.setState({
     //         todo_description: '',
@@ -119,6 +111,7 @@ class CreateUser extends Component {
     //         todo_completed: false
     //     })
     // }
+    }
 
     render () {
         return (

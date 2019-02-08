@@ -2,7 +2,7 @@ var cors = require('cors');
 var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3001;
 var app = express();
 var Sequelize = require('Sequelize');
 var passport = require('passport');
@@ -40,9 +40,9 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 
-// Routes - Import our auth.js file
-var authRoute = require('./controllers/auth.js')(app,passport); // Added passport as an argument to pass its functionality to auth.js
- 
+// // Routes - Import our auth.js file
+// var authRoute = require('./controllers/auth.js')(app,passport); // Added passport as an argument to pass its functionality to auth.js
+
 // load passport strategies
 require('./config/passport/passport.js')(passport, db.Users);
 
